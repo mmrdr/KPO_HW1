@@ -39,6 +39,7 @@ public class Zoo: IZooLogic
         Console.WriteLine("Summary about the zoo");
         Console.WriteLine("---------------------");
         Console.WriteLine($"Total animal count: {_animals.Count}");
+        Console.WriteLine($"Total food needed: {_animals.Sum(a => a.Food)} kg");
         Console.WriteLine($"Total inventory count: {_inventory.Count}");
         Console.WriteLine("Animals for contact zoo:");
         _animals.OfType<Herbo>().
