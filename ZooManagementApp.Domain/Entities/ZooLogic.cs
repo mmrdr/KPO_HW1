@@ -1,7 +1,7 @@
 using System.Threading.Channels;
-using ZooManagementApp.ZooManagementApp.Domain.Abstractions;
+using ZooManagementApp.Domain.Abstractions;
 
-namespace ZooManagementApp.ZooManagementApp.Domain.Entities;
+namespace ZooManagementApp.Domain.Entities;
 
 public class ZooLogic: IZooLogic
 {

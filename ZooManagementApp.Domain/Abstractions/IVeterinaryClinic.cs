@@ -1,4 +1,4 @@
-namespace ZooManagementApp.ZooManagementApp.Domain.Abstractions;
+namespace ZooManagementApp.Domain.Abstractions;
 
 public interface IVeterinaryClinic
 {   
