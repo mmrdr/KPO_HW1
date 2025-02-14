@@ -2,6 +2,8 @@
 *.vscode/
 *.idea/
 /.vs/
+ZooManagementApp.Domain/bin/
+ZooManagementApp.Domain/obj/
 ZooManagementApp/bin/
 ZooManagementApp/obj/
 /out/
