@@ -1,9 +1,10 @@
-﻿namespace ZooManagementApp;
+﻿
+namespace ZooManagementApp;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        
     }
 }
