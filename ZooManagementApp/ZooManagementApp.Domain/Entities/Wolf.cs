@@ -4,7 +4,7 @@ namespace ZooManagementApp.ZooManagementApp.Domain.Entities;
 
 public class Wolf: Predator
 {
-    public Wolf(int number) : base(7, number, "Wolf")
+    public Wolf(int food, int number, string name) : base(food, number, name)
     {
     }
 }

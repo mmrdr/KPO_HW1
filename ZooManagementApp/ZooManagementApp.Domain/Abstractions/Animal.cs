@@ -1,6 +1,6 @@
 namespace ZooManagementApp.ZooManagementApp.Domain.Abstractions;
 
-public class Animal: IAlive, IInventory
+public abstract class Animal: IAlive, IInventory
 {
     public int Food {get;}
     public int Number {get;}
