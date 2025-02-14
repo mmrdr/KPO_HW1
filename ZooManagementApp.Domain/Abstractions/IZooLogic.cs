@@ -4,7 +4,7 @@ public interface IZooLogic
 {
     void AddAnimal(Animal animal);
 
-    void AddInventory(IInventory item);
+    void AddInventory(Thing item);
 
     void Report();
 }
