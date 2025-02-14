@@ -1,0 +1,5 @@
+* The principle of Single Responsibility (SRP): Each class is responsible for one task. For example, Zoo is responsible for managing animals and things, and VeterinaryClinic is responsible for checking the health of animals.
+* The principle of openness/closeness (OCP):Each functionality can be scaled, for example Zoo, because I used the IZooLogic abstraction, or VeterinarClinic, because I used the IVeterinarClinic abstraction.
+* Barbara Liskov Substitution Principle (LSP): The Herbo and Predator classes can be used instead of the base Animal class without changing the behavior of the program.
+* Interface Separation Principle (ISP): All the interfaces of my program are small, they don't contain many functions. No more than three methods in one interface.
+* Dependency Inversion Principle (DIP): The high-level Zoo module depends on the IVeterinaryClinic abstraction, not on a specific implementation. In addition, all other modules depend on abstractions (it was just a vivid example, because there are association relationships between classes)
