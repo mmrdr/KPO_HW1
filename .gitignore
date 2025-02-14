@@ -2,7 +2,7 @@
 *.vscode/
 *.idea/
 /.vs/
-/bin/
+ZooManagementApp/bin/
 ZooManagementApp/obj/
 /out/
 /.vsconfig
